@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+@layer components{
+
+    .btn{
+        @apply bg-[#c93931] text-white py-2 px-4 rounded inline-block mt-10 font-medium border border-[#ff4d41] hover:bg-transparent hover:text-[#ff4DA3] transition duration-300
+    }
+    .inputStyles{
+@apply outline-[#ff4D41] border-gray-600 border rounded-[5px] px-4 py-2 w-full
+    }
+}
